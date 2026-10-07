@@ -1,0 +1,14 @@
+Source: oomkdir
+Section: utils
+Priority: optional
+Maintainer: openOODA-tools <ops@openooda.org>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+
+Package: oomkdir
+Architecture: amd64
+Depends: libc6
+Description: DIRECTORY MAKER
+ Atomic multi-level directory creator with explicit permission mask enforcement.
+ Capability-bounded openOODA utility with zero ambient authority,
+ oote theme palettes, and native Model Context Protocol (MCP) surface.
